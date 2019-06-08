@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".climatechange"
+    android:background="#000000">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:id="@+id/climate"
+    android:text="What is climate change?"
+    android:textSize="50sp"
+    android:textColor="#ff0f"
+    android:gravity="center"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+      android:text="A change in global or regional climate patterns, in particular a change apparent from the mid to late 20th century onwards and attributed largely to the increased levels of atmospheric carbon dioxide produced by the use of fossil fuels."
+        android:textSize="35sp"
+        android:textColor="#1355EE"
+      android:layout_below="@id/climate"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>
